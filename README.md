@@ -1,30 +1,25 @@
-# Insurance idea generator
 
+Insurance Idea Generator
+Overview
+This project helps generate innovative ideas for the insurance industry based on user input and guided prompts.
 
+Features
+Interactive idea suggestions
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kelvin-oppongs-projects/v0-insurance-idea-generator)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/2Ixju2YeFql)
+User-friendly interface
 
-## Overview
+Auto-update with latest changes
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Usage
+Clone the repository
 
-## Deployment
+Install dependencies
 
-Your project is live at:
+Run the project locally to explore and generate ideas
 
-**[https://vercel.com/kelvin-oppongs-projects/v0-insurance-idea-generator](https://vercel.com/kelvin-oppongs-projects/v0-insurance-idea-generator)**
+How It Works
+Accepts user input related to insurance needs or topics
 
-## Build your app
+Generates tailored suggestions using a structured approach
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/2Ixju2YeFql](https://v0.dev/chat/projects/2Ixju2YeFql)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Displays results in real-time for iteration and exploration
