@@ -3,6 +3,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Lightbulb, Users, TrendingUp, MessageSquare, Star, ArrowRight, Zap, Target, Shield } from "lucide-react"
 import Link from "next/link"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 
 export default function LandingPage() {
   return (
@@ -66,6 +68,46 @@ export default function LandingPage() {
       </section>
 
       {/* Features Section */}
+            {/* Sign In Section */}
+      <section id="signin" className="relative bg-cover bg-center py-20" style={{ backgroundImage: "url('/placeholder.jpg')" }}>
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 text-white">
+          <div className="space-y-4">
+            <h2 className="text-5xl font-bold">Welcome Back</h2>
+            <p className="text-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <div className="flex space-x-4 mt-4">
+              <Link href="#" className="text-white hover:text-blue-400">Facebook</Link>
+              <Link href="#" className="text-white hover:text-blue-400">Twitter</Link>
+              <Link href="#" className="text-white hover:text-blue-400">Instagram</Link>
+              <Link href="#" className="text-white hover:text-blue-400">YouTube</Link>
+            </div>
+          </div>
+          <div className="bg-white p-8 rounded shadow-lg text-gray-900">
+            <h3 className="text-2xl font-semibold mb-6">Sign in</h3>
+            <form className="space-y-4">
+              <div className="space-y-2">
+                <Label htmlFor="signin-email">Email Address</Label>
+                <Input id="signin-email" type="email" placeholder="Email Address" />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="signin-password">Password</Label>
+                <Input id="signin-password" type="password" placeholder="Password" />
+              </div>
+              <div className="flex items-center space-x-2">
+                <Input id="remember" type="checkbox" />
+                <Label htmlFor="remember">Remember Me</Label>
+              </div>
+              <Button className="w-full">Sign in now</Button>
+              <div className="text-sm text-center">
+                <Link href="#" className="text-blue-600 hover:underline">Lost your password?</Link>
+              </div>
+              <p className="text-xs text-center text-gray-500">
+                By clicking on "Sign in now" you agree to <Link href="#" className="text-blue-600 hover:underline">Terms of Service</Link> | <Link href="#" className="text-blue-600 hover:underline">Privacy Policy</Link>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
       <section id="features" className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
