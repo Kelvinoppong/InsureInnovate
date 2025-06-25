@@ -23,4 +23,12 @@ This project helps generate innovative ideas for the insurance industry based on
 * Generates tailored suggestions using a structured approach
 * Displays results in real-time for iteration and exploration
 
+## Daily Log
+
+### 2025-06-24
+- Installed project dependencies (`npm install`).
+- Added Sign In section before Features on landing page (`app/page.tsx`), including form, background, imports.
+- Updated imports for `Input` and `Label` components.
+- Tested development server (`npm run dev`) and verified landing page layout.
+
 
