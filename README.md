@@ -31,4 +31,12 @@ This project helps generate innovative ideas for the insurance industry based on
 - Updated imports for `Input` and `Label` components.
 - Tested development server (`npm run dev`) and verified landing page layout.
 
+### 2025-06-25
+- Integrated Firebase Authentication:
+  - Created `lib/firebase.ts` to initialize Firebase SDK.
+  - Added `context/AuthContext.tsx` to manage auth state and protection.
+  - Wrapped application in `<AuthProvider>` in `app/layout.tsx`.
+  - Updated `app/login/page.tsx` to implement sign-in/sign-up with Firebase (controlled inputs and auth flows).
+- Added reminder: set Firebase config in `.env.local` (`NEXT_PUBLIC_FIREBASE_*`) and install Firebase (`npm install firebase`).
+
 
