@@ -14,8 +14,10 @@ This project helps generate innovative ideas for the insurance industry based on
 ## Usage
 
 1. Clone the repository
-2. Install dependencies
-3. Run the project locally to explore and generate ideas
+2. Install dependencies (`npm install`)
+3. Create a `.env.local` file with Firebase config (see below)
+4. Run the project locally (`npm run dev`)
+
 
 ## How It Works
 
@@ -38,5 +40,6 @@ This project helps generate innovative ideas for the insurance industry based on
   - Wrapped application in `<AuthProvider>` in `app/layout.tsx`.
   - Updated `app/login/page.tsx` to implement sign-in/sign-up with Firebase (controlled inputs and auth flows).
 - Added reminder: set Firebase config in `.env.local` (`NEXT_PUBLIC_FIREBASE_*`) and install Firebase (`npm install firebase`).
+- Updated README with setup instructions and environment variables. (2025-06-28)
 
 
