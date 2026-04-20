@@ -31,4 +31,11 @@ This project helps generate innovative ideas for the insurance industry based on
 - Updated imports for `Input` and `Label` components.
 - Tested development server (`npm run dev`) and verified landing page layout.
 
+- ## Future Improvements
+
+- AI-powered idea generation and summarization  
+- Ability to save and export generated ideas  
+- User authentication and personalized dashboards  
+- Integration with real-world insurance datasets  
+
 
